@@ -13,7 +13,7 @@ const Login = () => {
   };
 
   return (
-    <div className="  flex h-screen w-screen items-center justify-center bg-gradient-to-r from-gray-900 via-black to-gray-900">
+    <div className="  flex h-screen w-screen items-center justify-center bg-gradient-to-r from-gray-800 via-black to-gray-800">
       <div className=" border-3 bg-gradient-to-r from-black via-gray-900 to-gray-600 border-gray-500 p-26">
         <form
           onSubmit={(e) => {
