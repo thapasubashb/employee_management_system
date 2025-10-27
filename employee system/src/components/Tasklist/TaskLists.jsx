@@ -9,7 +9,7 @@ const TaskLists = () => {
       <div className=" flex-shrink-0 h-full w-[350px] p-5 bg-gradient-to-r from-black via-gray-900 to-gray-500 rounded-xl ">
         <div className="flex justify-between items-center">
           <h3 className="bg-gray-800  text-sm px-4 py-1 rounded "> high</h3>
-          <h4 classname="text-base">25 Oct 2025</h4>
+          <h4 className="text-base">25 Oct 2025</h4>
         </div>
         <div>
           <h2 className="mt-6 text-2xl font-semibold">Make a youtube video</h2>
@@ -23,7 +23,7 @@ const TaskLists = () => {
       <div className=" flex-shrink-0 h-full w-[350px] p-5 bg-gradient-to-r from-black via-gray-800 to-gray-900 rounded-xl ">
         <div className="flex justify-between items-center">
           <h3 className="bg-gray-800  text-sm px-4 py-1 rounded "> high</h3>
-          <h4 classname="text-base">27 Oct 2025</h4>
+          <h4 className="text-base">27 Oct 2025</h4>
         </div>
         <div>
           <h2 className="mt-6 text-2xl font-semibold">
@@ -40,7 +40,7 @@ const TaskLists = () => {
       <div className=" flex-shrink-0 h-full w-[350px] p-5  bg-gradient-to-r from-black via-gray-500 to-gray-500 rounded-xl ">
         <div className="flex justify-between items-center">
           <h3 className="bg-gray-800  text-sm px-4 py-1 rounded "> high</h3>
-          <h4 classname="text-base"> 1 Nov 2025</h4>
+          <h4 className="text-base"> 1 Nov 2025</h4>
         </div>
         <div>
           <h2 className="mt-6 text-2xl font-semibold">
@@ -58,7 +58,7 @@ const TaskLists = () => {
       <div className=" flex-shrink-0 h-full w-[350px] p-5  bg-gradient-to-r from-black via-gray-900 to-gray-400 rounded-xl ">
         <div className="flex justify-between items-center">
           <h3 className="bg-gray-800 text-sm px-4 py-1 rounded "> high</h3>
-          <h4 classname="text-base"> 10 Nov 2025</h4>
+          <h4 className="text-base"> 10 Nov 2025</h4>
         </div>
         <div>
           <h2 className="mt-6 text-2xl font-semibold">
