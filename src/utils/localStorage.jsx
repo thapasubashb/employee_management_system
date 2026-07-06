@@ -1,7 +1,7 @@
 const employees = [
     {
       "sid": "E001",
-      "email": "employee1@company.com",
+      "email": " ",
       "password": "123",
       "tasks": [
         {
@@ -219,11 +219,9 @@ export const setLocalStorage = ()=> {
 }
 
 export const getLocalStorage = ()=> {
-    // FIX 1: Changed JSON.prase to JSON.parse
     const employees = JSON.parse(localStorage.getItem('employees'))
-    // FIX 2: Changed JSON.prase to JSON.parse AND changed 'employees' to 'admin'
     const admin = JSON.parse(localStorage.getItem('admin'))
-    
-    console.log(employees, admin)
+    return {employees, admin}
+  
     
 }

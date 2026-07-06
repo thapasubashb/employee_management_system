@@ -82,6 +82,7 @@ const CreateTask = () => {
             >
               Description
             </label>
+
             {/* Reduced rows and removed explicit height to shrink the textarea and reduce height */}
             <textarea
               id="description"

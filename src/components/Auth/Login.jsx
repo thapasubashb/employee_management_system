@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Login = ({handlelogin}) => {
+const Login = ({ handlelogin }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -8,7 +8,7 @@ const Login = ({handlelogin}) => {
     e.preventDefault();
     console.log("email is ", email);
     console.log("password is", password);
-     handlelogin(email,password)
+    handlelogin(email, password);
     setEmail("");
     setPassword("");
   };
@@ -32,6 +32,7 @@ const Login = ({handlelogin}) => {
             type="email"
             placeholder="enter your email"
           />
+
           <input
             vlaue={password}
             onChange={(e) => {
@@ -42,6 +43,7 @@ const Login = ({handlelogin}) => {
             type="password"
             placeholder="enter password"
           />
+
           <button className=" mt-5  text-white bg-gray-900   rounded-full py-3 px-5 text-xl">
             Login
           </button>
